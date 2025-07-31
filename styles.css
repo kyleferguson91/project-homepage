@@ -1,0 +1,107 @@
+body 
+{
+    margin: 0;
+    background-image: url(./images/uuunion.svg);
+    background-size: cover;
+  
+}
+
+.layoutholder
+{
+    display: flex;
+    flex-direction: column;
+
+  
+    
+    
+}
+
+header 
+{
+    display: flex;
+    margin: 100px;
+    align-items: center;
+
+}
+.aboutme 
+{
+    background-color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 2rem;
+}
+.aboutme a 
+{
+    font-family: playfair;
+    float: right;
+}
+.catimg
+{
+    height: 20em;
+    width: auto;
+    margin: 0 auto;
+    
+}
+.imagewrapper
+{
+    position: relative;
+    
+}
+.nametitle
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+    text-align: center;
+  font-size: 2rem;
+  color: white;
+  font-family: Roboto;
+   
+}
+
+main 
+{
+    background-color: white;
+
+}
+
+main h2
+{
+        margin-left: 2rem;
+}
+
+.projectlayout
+{
+    display: flex;
+}
+
+footer {
+    background-color: red;
+}
+
+.footerlayout 
+{
+    display: flex   ;
+    flex-direction: row;
+    margin: 4rem;
+}
+.footerlayout section 
+{
+    margin-right: 2rem;
+}
+.footerlayout img
+{
+    width: 30rem;
+    height: auto;
+}
+
+.footertext i
+{
+    width: 21rem;
+    height: auto;
+}
+a  
+{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
