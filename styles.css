@@ -83,22 +83,27 @@ footer {
     display: flex   ;
     flex-direction: row;
     margin: 4rem;
+    align-items: center;
 }
 .footerlayout section 
 {
-    margin-right: 2rem;
+    margin-right: 12rem;
+    
 }
 .footerlayout img
 {
     width: 30rem;
     height: auto;
+    transform: translateX(-2rem);
 }
 
-.footertext i
+.footertext img
 {
-    width: 21rem;
+    width: 2rem;
     height: auto;
+    transform: translateY(22%);
 }
+
 a  
 {
     text-decoration: none;
