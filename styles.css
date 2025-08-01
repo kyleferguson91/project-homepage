@@ -138,7 +138,7 @@ main
 
 .projectcard
 {
-       max-width: 250px;
+       max-width: 350px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
