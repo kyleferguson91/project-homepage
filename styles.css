@@ -21,13 +21,14 @@ header
     display: flex;
     margin: 100px;
     align-items: center;
+    
 
 }
 .aboutme 
 {
     background-color: white;
     margin: 0px 0px 0px 0px;
-    padding: 2rem;
+    padding: 1rem;
 }
 .aboutme a 
 {
@@ -61,7 +62,7 @@ header
 main 
 {
     background-color: white;
-
+    padding: 2rem 0 2rem 0rem;
 }
 
 main h2
@@ -69,25 +70,22 @@ main h2
         margin-left: 2rem;
 }
 
-.projectlayout
-{
-    display: flex;
-}
 
 footer {
-    background-color: red;
+    background-color: lightblue;
 }
 
 .footerlayout 
 {
     display: flex   ;
     flex-direction: row;
-    margin: 4rem;
-    align-items: center;
+    margin: 100px;
+
+    
 }
 .footerlayout section 
 {
-    margin-right: 12rem;
+    margin-right: 15rem;
     
 }
 .footerlayout img
@@ -102,11 +100,63 @@ footer {
     width: 2rem;
     height: auto;
     transform: translateY(22%);
+
 }
 
 a  
 {
     text-decoration: none;
     margin-left: 5px;
+    
+}
+.footertext 
+{
+
+
+}
+main h2
+{
+         margin: 0 100px 0 100px;
+}
+.projectlayout
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+    gap: 2rem;
+         margin: 20px 100px 0 100px;
+     
 }
 
+.projectname
+{
+     font-size: 1.2rem;
+     font-weight: bold;
+}
+
+.projectcard
+{
+       max-width: 320px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+
+   
+    
+}
+
+.projectimage
+{
+    
+  
+    background-color: red;
+}
+.projectinfoholder
+{
+    padding: 1rem;
+}
+
+.projectlinkimage 
+{
+    transform: translateY(3px);
+}
