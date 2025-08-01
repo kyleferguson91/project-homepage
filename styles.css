@@ -148,8 +148,14 @@ main h2
 .projectimage
 {
     
-  
+  width: 100%;
+  height: 200px;
     background-color: red;
+}
+.projectimage h2
+{
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 .projectinfoholder
 {
