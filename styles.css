@@ -59,11 +59,7 @@ header
    
 }
 
-main 
-{
-    background-color: white;
-    padding: 2rem 0 2rem 0rem;
-}
+
 
 main h2
 {
@@ -118,11 +114,17 @@ main h2
 {
          margin: 0 100px 0 100px;
 }
+main 
+{
+    background-color: white;
+    padding: 2rem 0 2rem 0rem;
+}
 .projectlayout
 {
     display: flex;
     flex-wrap: wrap;
-    
+
+
     gap: 2rem;
          margin: 20px 100px 0 100px;
      
@@ -136,7 +138,7 @@ main h2
 
 .projectcard
 {
-       max-width: 320px;
+       max-width: 250px;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
@@ -165,4 +167,66 @@ main h2
 .projectlinkimage 
 {
     transform: translateY(3px);
+}
+
+@media (min-width: 800px) and (max-width: 1030px) {
+    body 
+    {
+        background-color: red;
+    }
+
+
+    .projectlayout {
+    margin: 20px 20px 0 20px;
+    }
+    .projectcard
+    {
+    
+    }
+
+    main
+    {
+        margin: 0;
+    }
+}
+
+@media (max-width: 799px) {
+ 
+header 
+{
+ flex-flow: column;
+ margin: 60px;
+ padding: 70px;
+    
+
+}
+
+.catimg 
+{
+    width: 300px;
+    height: auto;
+}
+.footerlayout 
+{
+
+    flex-direction: column;
+   margin: 20px;
+    margin-right: 0;
+justify-content: center;
+    
+}
+.footertext 
+{
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.footerlayout section
+{
+    margin-right: 0;
+}
+
+    .projectlayout {
+            
+    }
 }
